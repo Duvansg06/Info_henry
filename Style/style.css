@@ -1,0 +1,153 @@
+body {
+    background-image: url(/Assets/Imagenes/imgPino.jpg);
+
+}
+header {
+    background-color: aliceblue;
+    height: 110px;
+}
+
+h1 {
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 40px;
+    
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+    background-color: aliceblue;
+    height: 30px;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    background-color: aliceblue;
+    height: 30px;
+}
+img{
+    width: 500px;
+    border-radius: 30px;
+    height: 800px;
+    object-fit: cover;
+    box-shadow: 0px 60px 100px #ffffff;
+    
+}
+
+.imagenesPrin {
+    width: 45%;  
+   display: flex;
+    justify-content: center;
+}
+
+#foto_mia1{
+    display: inline-block;
+    justify-content: center;
+    padding: 80px;
+    
+}
+
+#foto_mia2{
+    display: inline-block;
+    justify-content: center;
+    padding: 80px;
+    
+
+}
+#foto_H1{
+    padding: 80px;
+}
+#foto_H2{
+    padding: 80px;
+}
+#foto_F1{
+    padding: 80px;
+}
+#foto_F2{
+    padding: 80px;
+}
+section.parrafo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   
+}
+
+.personal1 a{
+    padding: 1em;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.personal1 ul  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    
+}
+
+.personal2 a {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+.personal2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+.personal3 a {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+.personal3 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.infoHobbies{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+ .fami{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+
+ }
+
+ footer{
+    background-color: aliceblue;
+ }
